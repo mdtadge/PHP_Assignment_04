@@ -22,10 +22,6 @@
         </select>
     </div>
 
-    <div class="Note">
-        <p><span> Note: Please wait for server to respond</span></p>
-    </div>
-
     <div class="output">
     
     </div>
