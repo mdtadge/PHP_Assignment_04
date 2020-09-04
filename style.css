@@ -1,16 +1,9 @@
 @import 'http://fonts.googleapis.com/css?family=Lobster';
 
 body{
-  background-image: url(image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-span{
-  color: red;
-  font-weight: bold;
-  font-size: 2.5vw;
-  background-color: white;
+  background:url('menu1.PNG') no-repeat;
+	background-size: cover;
+	font-family: Arial;
 }
 
 .heading{
@@ -19,18 +12,18 @@ span{
 
 .heading h1{
         
-        background: #292929;
+        background: #020113;
         font-size: 5.5vw;
         margin-top: 0;
-        font-family: 'Lobster', helvetica, arial;
+        font-family: Arial;
         text-decoration: none;
         color: #666;
         -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
     }
 
 .heading h1:after {
-        content : 'Welcome to Restaurant';
-        color: #d6d6d6;
+        content : 'Menu Items';
+        color: #faf5f5;
         text-shadow: 0 1px 0 white;
     }
 
@@ -40,6 +33,7 @@ h1 {
 }
 /* Reset Select */
 select {
+  align-items: center;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -56,16 +50,17 @@ select::-ms-expand {
 }
 /* Custom Select */
 .select {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   position: relative;
   display: flex;
   color: white;
-  width: 50%;
+  width: 20em;
   height: 3em;
   line-height: 3;
   background: #2c3e50;
   overflow: hidden;
   border-radius: .25em;
+  
 }
 select {
   flex: 1;
